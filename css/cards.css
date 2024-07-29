@@ -1,0 +1,95 @@
+/* Container Styling for Flexbox */
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Card Styling */
+.course-card {
+    flex: 1 1 calc(33.333% - 40px);
+    /* Flex grow, flex shrink, and basis */
+    max-width: calc(33.333% - 40px);
+    /* Ensure maximum width is maintained */
+    height: 400px;
+    margin: 10px;
+    /* Adjusted margin to maintain spacing */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    position: relative;
+    /* Added to position children absolutely */
+}
+
+.course-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #000;
+    /* يمكنك وضع صورة URL هنا */
+}
+
+.course-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.course-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    z-index: 1;
+    /* Added to ensure content is above the image */
+}
+
+.course-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.course-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.course-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+.course-card:hover .course-image img {
+    transform: scale(1.2);
+}
+
+.course-card:hover .course-content {
+    transform: translateY(-100%);
+}
+
+.course-instructor,
+.course-price {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}

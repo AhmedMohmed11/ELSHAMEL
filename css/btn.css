@@ -1,0 +1,147 @@
+/* Centering container for the button */
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height for centering */
+}
+
+/* Comic button styling */
+.comic-button {
+    display: inline-block;
+    padding: 15px 100px;
+    /* Increase padding for a larger butt
+    on */
+    margin-left: 45%;
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #52a9ff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.comic-button:hover {
+    background-color: #fff;
+    color: #52c2ff8e;
+    border: 2px solid #036d8b;
+    box-shadow: 5px 5px 0px #02277e;
+}
+
+.comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.search {
+    flex: 0 0 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    color: #333333;
+    background-color: #f4f2f2;
+    border: none;
+    padding: 14px 72px 14px 42px;
+    border-radius: 1000px;
+    width: 94%;
+    margin-left: -34px;
+    margin-right: -66px;
+    transition: all 0.2s;
+}
+
+.search__input:focus {
+    outline: none;
+    width: 100%;
+    background-color: #f0eeee;
+}
+
+.search__input::-webkit-input-placeholder {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #999999;
+}
+
+.search__button {
+    border: none;
+    background-color: transparent;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.search__button:focus {
+    outline: none;
+}
+
+.search__button:active {
+    transform: translateY(2px);
+}
+
+.search__icon {
+    height: 20px;
+    width: 20px;
+    fill: #999999;
+}
+
+.mic__button {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.mic__button:focus {
+    outline: none;
+}
+
+.mic__button:active {
+    transform: translateY(2px);
+}
+
+.mic__icon {
+    height: 28px;
+    width: 20px;
+    fill: #999999;
+}
+
+.mic__icon:hover {
+    fill: #dd5e89;
+}
+
+.picture__button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.picture__button:focus {
+    outline: none;
+}
+
+.picture__button:active {
+    transform: translateY(2px);
+}
+
+.picture__icon {
+    height: 16px;
+    width: 20px;
+    fill: #999999;
+}
+
+.picture__icon:hover {
+    fill: #dd5e89;
+}
