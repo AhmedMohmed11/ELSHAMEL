@@ -16,7 +16,7 @@
     </label>
 
     <button class="submit">تسجيل الدخول</button>
-    <p class="signin">ليس لديك حساب؟ <a href="#">سجل الان</a> </p>
+    <p class="signin">ليس لديك حساب؟ <a href="./Register.php">سجل الان</a> </p>
 </form>
 
 <?php include("footer.php"); ?>

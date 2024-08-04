@@ -4,7 +4,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">تبحث عن شيئ ؟</h4>
                     <a class="btn btn-link" href="./about.php">من نحن</a>
-                    <a class="btn btn-link" href="">تواصل معنا</a>
+                    <a class="btn btn-link" href="./contact.php">تواصل معنا</a>
                     <a class="btn btn-link" href="">سياسة الخصوصية</a>
                     <a class="btn btn-link" href="">الشروط والاحكام </a>
                     <a class="btn btn-link" href="">الاسئلة الشائعة </a>

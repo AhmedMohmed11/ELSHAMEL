@@ -1,56 +1,281 @@
+/* Basic Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+html,
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    height: 100%;
+    width: 100%;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
     padding: 0;
-    direction: rtl;
-    text-align: right;
+    border: none;
+    cursor: pointer;
 }
 
-.course-header {
-    background-color: #00a8ff;
-    color: white;
-    padding: 20px;
-    text-align: center;
+/* button styling */
+.button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #ffffff;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
 }
 
-.course-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+/* this is the text, when you hover on button */
+.hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
 }
 
-.course-header p {
-    margin: 10px 0 0;
-    font-size: 1.2em;
+/* hover */
+.button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
 }
 
-.course-content {
-    padding: 20px;
-    max-width: 800px;
+nav {
+    background: #222222;
+    padding: 10px 40px 10px 70px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 15px;
+    display: flex;
+
 }
 
-.course-section {
-    background-color: white;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Columns */
+.left-column {
+    width: 65%;
+    position: relative;
 }
 
-.course-section h2 {
-    margin-top: 0;
-    color: #00a8ff;
+
+
+.right-column {
+    width: 35%;
+    margin-top: 60px;
 }
 
-.course-section ul {
-    list-style-type: none;
-    padding: 0;
+/* Left Column */
+.left-column img {
+    width: 90%;
+    height: 80%;
+    position: relative;
+    left: 20px;
+    top: 50px;
 }
 
-.course-section ul li {
-    background: url('checkmark.png') no-repeat left center;
-    padding-left: 30px;
-    margin: 5px 0;
+/* Product Description */
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+}
+
+.product-description span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+}
+
+.product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+}
+
+.course-choose {
+    margin-bottom: 20px;
+}
+
+.course-choose button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    max-height: 56px;
+}
+
+
+.course-config {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+}
+
+.course-config a {
+    color: #358ED7;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.course-config a:before {
+    content: "?";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(53, 142, 215, 0.5);
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    opacity: 0.5;
+    margin-right: 5px;
+}
+
+/* Product Price */
+
+.rating {
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.rating label:before {
+    content: '\2605';
+    font-size: 30px;
+}
+
+.rating input:checked~label,
+.rating label:hover,
+.rating label:hover~label {
+    color: #6f00ff;
+    transition: color 0.3s;
+}
+
+
+.product-price {
+    display: flex;
+    align-items: center;
+}
+
+.product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+}
+
+.cart-btn {
+    display: inline-block;
+    background-color: #7DC855;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+}
+
+.cart-btn:hover {
+    background-color: #64af3d;
 }

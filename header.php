@@ -23,6 +23,8 @@
     <link href="./css/reg.css" rel="stylesheet">
     <link href="./css/cards.css" rel="stylesheet">
     <link href="./css/btn.css" rel="stylesheet">
-
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/social.css" rel="stylesheet">
+    <link href="./css/payment.css" rel="stylesheet">
+    <link href="./css/feedback.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>

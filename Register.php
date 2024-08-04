@@ -24,11 +24,15 @@
 
         <label>
             <input class="input" type="password" placeholder="" required="">
-            <span>كلمة السر</span>
+            <span>كلمة المرور</span>
         </label>
         <label>
             <input class="input" type="password" placeholder="" required="">
-            <span>اعادة كلمة المرور </span>
+            <span>تأكيد كلمة المرور </span>
+        </label>
+        <label>
+            <input class="input" type="password" placeholder="" required="">
+            <span>رقم الحساب البنكي </span>
         </label>
         <label class="checkbox-label">
             <input type="checkbox" class="ui-checkbox">

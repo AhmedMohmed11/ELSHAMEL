@@ -9,7 +9,7 @@
             <p class="course-description">Learn the fundamentals of web development, including HTML, CSS, and JavaScript.</p>
             <p class="course-instructor">Instructor: John Doe</p>
             <p class="course-price">Price: $199</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -21,7 +21,7 @@
             <p class="course-description">An introduction to data science, covering data analysis, visualization, and machine learning.</p>
             <p class="course-instructor">Instructor: Jane Smith</p>
             <p class="course-price">Price: $299</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -33,7 +33,7 @@
             <p class="course-description">Explore the basics of cybersecurity, including network security, encryption, and risk management.</p>
             <p class="course-instructor">Instructor: Mark Johnson</p>
             <p class="course-price">Price: $250</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -45,7 +45,7 @@
             <p class="course-description">Learn the strategies and tools for successful digital marketing, including SEO and social media marketing.</p>
             <p class="course-instructor">Instructor: Sarah Lee</p>
             <p class="course-price">Price: $150</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -57,7 +57,7 @@
             <p class="course-description">Master the principles of graphic design, including typography, color theory, and digital tools.</p>
             <p class="course-instructor">Instructor: Emily Davis</p>
             <p class="course-price">Price: $180</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -69,7 +69,7 @@
             <p class="course-description">Understand the fundamentals of project management, including planning, execution, and monitoring.</p>
             <p class="course-instructor">Instructor: Michael Brown</p>
             <p class="course-price">Price: $220</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -81,7 +81,7 @@
             <p class="course-description">Learn the basics of machine learning, including algorithms, model training, and evaluation.</p>
             <p class="course-instructor">Instructor: Linda Green</p>
             <p class="course-price">Price: $350</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -93,7 +93,7 @@
             <p class="course-description">Explore the field of artificial intelligence, including neural networks, deep learning, and AI applications.</p>
             <p class="course-instructor">Instructor: Tom Harris</p>
             <p class="course-price">Price: $399</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -105,7 +105,7 @@
             <p class="course-description">Learn about cloud computing concepts, services, and architectures, including AWS and Azure.</p>
             <p class="course-instructor">Instructor: Chris White</p>
             <p class="course-price">Price: $300</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -117,7 +117,7 @@
             <p class="course-description">Understand the fundamentals of blockchain technology, including decentralized applications and smart contracts.</p>
             <p class="course-instructor">Instructor: Anna Scott</p>
             <p class="course-price">Price: $320</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -129,7 +129,7 @@
             <p class="course-description">Learn how to develop mobile applications for Android and iOS using modern frameworks and tools.</p>
             <p class="course-instructor">Instructor: Nancy Young</p>
             <p class="course-price">Price: $275</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
     <div class="course-card">
@@ -141,7 +141,7 @@
             <p class="course-description">Explore the world of IoT, including sensors, connectivity, and real-world applications.</p>
             <p class="course-instructor">Instructor: David Wilson</p>
             <p class="course-price">Price: $240</p>
-            <a class="course-button" href="#">Read More</a>
+            <a class="course-button" href="c++_fundamentals_course.php">Read More</a>
         </div>
     </div>
 </div>

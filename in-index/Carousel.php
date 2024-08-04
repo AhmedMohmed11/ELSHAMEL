@@ -10,7 +10,7 @@
                             <h1 class="display-3 text-white animated slideInDown">اختيارك الافضل للتعليم عن بعد</h1>
                             <p class="fs-5 text-white mb-4 pb-2">هل تبحث دائما عن أفضل الخيارات؟ نحن أيضا نبحث عن أفضل الدورات لتوفيرها لك</p>
                             <a href="about.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">من نحن ؟</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">انضم إلينا الآن!</a>
+                            <a href="Register.php" class="btn btn-light py-md-3 px-md-5 animated slideInRight">انضم إلينا الآن!</a>
                         </div>
                     </div>
                 </div>
